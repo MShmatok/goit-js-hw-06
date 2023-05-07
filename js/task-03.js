@@ -17,5 +17,5 @@ const temp = images.map(elem => {
   return `<li><img src="${elem.url} alt="${elem.alt}"></li>`
 }).join('')
 gallery.insertAdjacentHTML('beforeend', temp);
-console.log(temp);
+
 
